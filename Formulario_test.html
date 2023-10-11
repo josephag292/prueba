@@ -10,8 +10,39 @@
 </head>
 <body>
    <form action="mailto:josephag57@educastur.es" method="post" enctype="text/plain">
-    <p>INTRODUCE EL TEXTO</p>
-    <input type="text" name="nombre">
+    <p>INTRODUCE tu nombre</p>
+    <input type="nombre" name="nombre" size="20" maxlength="10">
+    <br>
+    <p>INTRODUCE tu contraseña</p>
+    <input type="password" name="pass" size="20" maxlength="10">
+    <p>Dame tu direccion</p>
+    <textarea name="direccion" id="" cols="3" rows="10"></textarea>
+    <br>
+    <hr>
+    <br>
+    <select name="color" id="" size="2" multiple>
+        <option value="rojo">rojo</option>
+        <option value="verde">verde</option>
+        <option value="amarillo">amarillo</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" name="terminos" value="si">acepto los terminos de la pagina web
+    <br>
+    <br>
+    <input type="checkbox" name="operativo" value="Linux" checked>Linux
+    <input type="checkbox" name="operativo" value="Windows">Windows
+    <input type="checkbox" name="operativo" value="IOS">IOS 
+    <input type="checkbox" name="operativo" value="Android">Android
+    <br>
+    <br>
+    <input type="submit" value="enviar">
+    <br>
+    <br>
+    <input type="radio" name="" id="">
+    <br>
+    <br>
+    <input type="reset" value="borrar">
    </form> 
 </body>
 </html>
